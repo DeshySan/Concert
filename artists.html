@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/31128877ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Elektrik Eel Music Fest</title>
+    <script src="main.js"></script>
+
+    <link rel="icon" href="assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=AR One Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alfa Slab One"
+      rel="stylesheet"
+    />
+    <style>
+      .artistsContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer {
+        background-color: rgb(124, 100, 114) !important;
+      }
+      /* .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 180px;
+        padding: 10px;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        transition: 0.5s ease;
+      } */
+      .band {
+        background-color: rgb(124, 100, 114) !important;
+      }
+      .band h1 {
+        color: rgb(255, 74, 105);
+      }
+      .band p {
+        color: white;
+      }
+      a:active {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="wideScreen" id="wideScreen">
+        <div class="toursexperience">
+          <a href="artists.html"><h4>ARTISTS</h4></a>
+          <a href="food.html" active><h4>FOOD</h4></a>
+        </div>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/icon.png" alt="Elektrik Eel Music Fest"
+          /></a>
+        </div>
+        <ul class="social-media">
+          <li><div id="time">00:00:00</div></li>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/feed/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        id="centerCross"
+        onclick="hamBurger()"
+      >
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <header>
+      <div class="band">
+        <h1>BAND PROFILE</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo sunt
+          sint! Illum labore nulla qui quos, ipsam voluptatum, libero
+          perferendis officia laborum quasi et earum, rerum delectus similique
+          in maxime ad dolorem ratione inventore. Expedita totam veritatis nobis
+          excepturi a, nemo amet molestiae. Necessitatibus, sequi obcaecati.
+          Placeat quidem voluptatem quod ab non blanditiis voluptates impedit.
+          Molestiae quae commodi tenetur asperiores, dolores repellat assumenda
+          cumque vitae, non alias id dolorem, voluptates quidem. Repudiandae,
+          nihil voluptatum quos doloremque sed impedit aspernatur? Consequatur
+          assumenda blanditiis velit. Mollitia asperiores debitis obcaecati
+          atque! Soluta quod rem voluptatem. A corporis nesciunt quia atque est
+          veniam dolorum quisquam totam quod soluta qui praesentium tenetur ut
+          nisi obcaecati, consequuntur inventore, fuga ullam nihil? Rem illo
+          suscipit maiores quam! Eligendi ipsam soluta dignissimos, quae vitae
+          impedit hic voluptate recusandae quam nisi, laudantium repellendus,
+          nostrum assumenda cumque reprehenderit alias dolor earum. Modi vero,
+          voluptatem earum, beatae ratione voluptatum numquam expedita placeat
+          eveniet dicta nisi aut et maxime corrupti. Suscipit libero nemo
+          voluptatum quibusdam voluptate ea est velit qui dolorem ipsum!
+        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="rgb(255, 74, 105)"
+            fill-opacity="1"
+            d="M0,64L14.1,96C28.2,128,56,192,85,202.7C112.9,213,141,171,169,154.7C197.6,139,226,149,254,170.7C282.4,192,311,224,339,224C367.1,224,395,192,424,181.3C451.8,171,480,181,508,202.7C536.5,224,565,256,593,261.3C621.2,267,649,245,678,197.3C705.9,149,734,75,762,85.3C790.6,96,819,192,847,224C875.3,256,904,224,932,224C960,224,988,256,1016,261.3C1044.7,267,1073,245,1101,202.7C1129.4,160,1158,96,1186,112C1214.1,128,1242,224,1271,218.7C1298.8,213,1327,107,1355,58.7C1383.5,11,1412,21,1426,26.7L1440,32L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <p class="para">ARTISTS</p>
+      <div class="artistsContent">
+        <div class="card">
+          <img src="assets/artist1.jpg" alt="Guitarist" />
+          <p class="card-number">ADAM HOLMES</p>
+          <span
+            >Shanti Bahdur Rayamajhi was a percussionist with Nepathya in
+            2001-2002. He then left the band to concentrate in his teaching
+            career as well as session playing. He is back with the band since
+            2010 and since then has done several shows in Nepal and abroad.
+            percussion.</span
+          >
+        </div>
+        <div class="card">
+          <img src="assets/artist2.jpg" alt="Guitarist" />
+          <p class="card-number">ADAM HOLMES</p>
+          <span
+            >Shanti Bahdur Rayamajhi was a percussionist with Nepathya in
+            2001-2002. He then left the band to concentrate in his teaching
+            career as well as session playing. He is back with the band since
+            2010 and since then has done several shows in Nepal and abroad.
+            percussion.</span
+          >
+        </div>
+        <div class="card">
+          <img src="assets/artist3.jpg" alt="Guitarist" />
+          <p class="card-number">ADAM HOLMES</p>
+          <span
+            >Shanti Bahdur Rayamajhi was a percussionist with Nepathya in
+            2001-2002. He then left the band to concentrate in his teaching
+            career as well as session playing. He is back with the band since
+            2010 and since then has done several shows in Nepal and abroad.
+            percussion.</span
+          >
+        </div>
+        <div class="card">
+          <img src="assets/artist4.jpg" alt="Guitarist" />
+          <p class="card-number">ADAM HOLMES</p>
+          <span
+            >Shanti Bahdur Rayamajhi was a percussionist with Nepathya in
+            2001-2002. He then left the band to concentrate in his teaching
+            career as well as session playing. He is back with the band since
+            2010 and since then has done several shows in Nepal and abroad.
+            percussion.</span
+          >
+        </div>
+        <div class="card">
+          <img src="assets/artist5.jpg" alt="Guitarist" />
+          <p class="card-number">ADAM HOLMES</p>
+          <span
+            >Shanti Bahdur Rayamajhi was a percussionist with Nepathya in
+            2001-2002. He then left the band to concentrate in his teaching
+            career as well as session playing. He is back with the band since
+            2010 and since then has done several shows in Nepal and abroad.
+            percussion.</span
+          >
+        </div>
+        <div class="card">
+          <img src="assets/elektrick.jpg" alt="Guitarist" />
+          <p class="card-number">ADAM HOLMES</p>
+          <span
+            >Shanti Bahdur Rayamajhi was a percussionist with Nepathya in
+            2001-2002. He then left the band to concentrate in his teaching
+            career as well as session playing. He is back with the band since
+            2010 and since then has done several shows in Nepal and abroad.
+            percussion.</span
+          >
+        </div>
+      </div>
+    </header>
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Bands</a></li>
+            <li><a href="#">Concerts 2024</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Stadium Concert</a></li>
+            <li><a href="#">Rip Pink David</a></li>
+            <li><a href="#">Australia Tour 2024</a></li>
+            <li><a href="#">Australia Tour 2023</a></li>
+            <li><a href="#">Australia Tour 2022</a></li>
+            <li><a href="#">Media Australia Tour 2021</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our Discord channel for daily updates. Please submit
+            your email for verification!
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required />
+            <button type="submit">SUBSCRIPTION</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        easing: "cubic-bezier(.05,.80,.60,.99)",
+        perspective: 500,
+        transition: true,
+      });
+    </script>
+    <script src="vanillajs.js"></script>
+  </body>
+</html>
